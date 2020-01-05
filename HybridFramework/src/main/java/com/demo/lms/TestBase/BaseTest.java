@@ -12,7 +12,7 @@ import com.demo.lms.util.Utility;
 
 public class BaseTest {
 
-	//rahul
+
 	public static WebDriver driver;
 	public static Properties pro;
 
