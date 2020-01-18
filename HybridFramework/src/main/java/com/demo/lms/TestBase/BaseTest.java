@@ -46,5 +46,5 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Utility.IMPLICITWAIT, TimeUnit.SECONDS);
 		driver.get((pro.getProperty("url")));
 		}
-	//rahul mandewe
+	
 }

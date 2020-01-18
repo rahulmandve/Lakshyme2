@@ -24,13 +24,14 @@ public class Utility extends BaseTest{
 		elements.click();
 	}
 	
-	public void takeScreenshot(String name)
+	public static void takeScreenshot(String name)
 	{
 		
 		File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String path=System.getProperty("user.dir");
 		
 		try {
-			FileUtils.copyFile(src,new File("path"+name+".jpg"));
+			FileUtils.copyFile(src,new File(path+"/screenshot/"+name+".png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
