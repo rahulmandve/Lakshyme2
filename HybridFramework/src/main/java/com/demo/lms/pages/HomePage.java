@@ -31,7 +31,9 @@ public class HomePage extends BaseTest{
 	public void fbRegistration(String uname,String password,String mobileNo)
 	{
 		fname.sendKeys(uname);
+		
 		sname.sendKeys(password);
+		
 		mobileno.sendKeys(mobileNo);
 	}
 	
