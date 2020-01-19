@@ -28,11 +28,11 @@ public class HomePage extends BaseTest{
 	  }
 	 
 	
-	public void fbRegistration()
+	public void fbRegistration(String uname,String password,String mobileNo)
 	{
-		fname.sendKeys("rahul");
-		sname.sendKeys("mandve");
-		mobileno.sendKeys("9561877666");
+		fname.sendKeys(uname);
+		sname.sendKeys(password);
+		mobileno.sendKeys(mobileNo);
 	}
 	
 	public void countLink()
