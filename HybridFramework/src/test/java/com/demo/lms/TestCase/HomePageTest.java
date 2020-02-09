@@ -23,8 +23,10 @@ public class HomePageTest extends BaseTest  {
 	@BeforeMethod
 	public void setUp()
 	{
-		openBrowser();
-		hm=new HomePage();
+
+	hm=new HomePage();	
+        openBrowser();
+		
 		
 	}
 	
